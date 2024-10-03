@@ -1,0 +1,48 @@
+body {
+    font-family: "arial", 'Times New Roman';
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(img/pohon.png);
+    background-repeat: no-repeat;
+}
+
+.konten {
+    width: 60%;
+    height: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0.2);
+    overflow: auto; 
+}
+
+h1 {
+    color: #4285f4;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #aad4ec;
+    border-radius: 70pc;
+    padding: 15px;
+    border-style: outset;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Menambahkan styling khusus untuk teks dengan kelas "teks-khusus" */
+.teks-khusus {
+    font-style: italic;
+    text-decoration: underline;
+    color: #128e16;
+}
